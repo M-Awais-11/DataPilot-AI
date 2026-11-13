@@ -147,6 +147,7 @@ export class ChatComponent implements OnInit {
       created_at: new Date().toISOString()
     });
 
+    
     this.api.sendChatMessage(this.selectedExperimentId, msg).subscribe({
       next: (aiReply) => {
         this.loading = false;
