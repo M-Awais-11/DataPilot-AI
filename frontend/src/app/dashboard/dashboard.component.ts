@@ -78,7 +78,7 @@ import { Dataset, Experiment } from '../core/models/types';
               style="background:none; border:none; cursor:pointer; padding:4px 6px; border-radius:6px; color:#64748b; font-size:15px; line-height:1; flex-shrink:0; transition:color 0.15s;"
               onmouseover="this.style.color='#f87171'"
               onmouseout="this.style.color='#64748b'"
-            >🗑️</button>
+            >Delete</button>
           </div>
         </article>
 
