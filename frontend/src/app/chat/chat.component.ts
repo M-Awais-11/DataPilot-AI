@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 import { ApiService } from '../core/services/api.service';
 import { Experiment, ChatMessage } from '../core/models/types';
 
-
 @Component({
   selector: 'app-chat',
   standalone: true,
