@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --mist: #e3f2fd;
   --sky: #90caf9;
