@@ -8,6 +8,7 @@ import { AuthService } from '../core/auth/auth.service';
   selector: 'app-login',
   standalone: true,
   imports: [CommonModule, FormsModule, RouterModule],
+  
   template: `
     <div class="min-h-screen bg-slate-950 flex items-center justify-center p-4">
       <div class="w-full max-w-md bg-slate-900 border border-slate-800 rounded-2xl p-8 shadow-2xl">
