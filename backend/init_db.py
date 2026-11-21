@@ -1,5 +1,6 @@
 """Database schema initialization for Microsoft SQL Server."""
 import urllib.parse
+
 from sqlalchemy import create_engine
 from app.config.settings import settings
 from app.database.connection import Base
